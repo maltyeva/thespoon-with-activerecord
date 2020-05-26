@@ -1,0 +1,17 @@
+<h1>Add a new restaurant</h1>
+<!-- post '/restaurants', to: "restaurants#create" -->
+<!-- <form action="/restaurants" method="POST">
+  <%#= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="restaurant[name]" placeholder="enter a name">
+  <input type="text" name="restaurant[address]" placeholder="enter a address">
+  <input type="text" name="restaurant[rating]" placeholder="enter a rating">
+  <input type="submit">
+</form> -->
+<!-- params: {
+restaurant: {
+name: "Shake Shack", 
+address: "Shanghai", 
+rating: 3
+}
+} -->
+<%= render 'form', restaurant: @restaurant %>

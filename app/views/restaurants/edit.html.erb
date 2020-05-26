@@ -1,0 +1,11 @@
+<h1>Edit Restaurant</h1>
+<!--  patch '/restaurants/:id', to: "restaurants#update"
+ -->
+<!-- <form action="/restaurants/6" method="PATCH">
+  <%#= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="restaurant[name]" placeholder="enter a name" value="joe exotic">
+  <input type="text" name="restaurant[address]" placeholder="enter a address" value="shanghai">
+  <input type="text" name="restaurant[rating]" placeholder="enter a rating" value="4">
+  <input type="submit">
+</form> -->
+<%= render 'form', restaurant: @restaurant %>
